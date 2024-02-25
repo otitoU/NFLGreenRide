@@ -1,5 +1,5 @@
 # NFLGreenRide 🏈
-A mobile application developed by PSU to help combact the amount of CO2 emission when commuting to NFL games
+A mobile application developed by PSU to help combact the amount of CO2 emission when fan commute to NFL games
 
 ## Overview
 Our proposed solution focuses on the development of a ride-sharing app specifically tailored for NFL fans attending games at the same stadium. This innovative platform will encourage fans to share rides by offering a compelling incentive system where users can earn points for every ride shared. These points can then be redeemed for NFL tickets, merchandise, and exclusive game-day experiences.
