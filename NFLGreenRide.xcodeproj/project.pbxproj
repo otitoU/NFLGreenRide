@@ -11,6 +11,10 @@
 		6CA9F52E2B8AA1C300056BBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9F52D2B8AA1C300056BBE /* ContentView.swift */; };
 		6CA9F5302B8AA1C500056BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA9F52F2B8AA1C500056BBE /* Assets.xcassets */; };
 		6CA9F5332B8AA1C500056BBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA9F5322B8AA1C500056BBE /* Preview Assets.xcassets */; };
+		6CA9F53C2B8ABC1100056BBE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9F53B2B8ABC1100056BBE /* HomeView.swift */; };
+		6CA9F5402B8ACA1900056BBE /* YourCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9F53F2B8ACA1900056BBE /* YourCarView.swift */; };
+		6CA9F5422B8ACBF900056BBE /* BuddiesForumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9F5412B8ACBF900056BBE /* BuddiesForumView.swift */; };
+		6CA9F5442B8AD4AC00056BBE /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9F5432B8AD4AC00056BBE /* ActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		6CA9F52D2B8AA1C300056BBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6CA9F52F2B8AA1C500056BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CA9F5322B8AA1C500056BBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6CA9F53B2B8ABC1100056BBE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6CA9F53F2B8ACA1900056BBE /* YourCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourCarView.swift; sourceTree = "<group>"; };
+		6CA9F5412B8ACBF900056BBE /* BuddiesForumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddiesForumView.swift; sourceTree = "<group>"; };
+		6CA9F5432B8AD4AC00056BBE /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,9 @@
 		6CA9F52A2B8AA1C300056BBE /* NFLGreenRide */ = {
 			isa = PBXGroup;
 			children = (
+				6CA9F53A2B8ABC0100056BBE /* App */,
+				6CA9F5392B8ABBB400056BBE /* Core */,
 				6CA9F52B2B8AA1C300056BBE /* NFLGreenRideApp.swift */,
-				6CA9F52D2B8AA1C300056BBE /* ContentView.swift */,
 				6CA9F52F2B8AA1C500056BBE /* Assets.xcassets */,
 				6CA9F5312B8AA1C500056BBE /* Preview Content */,
 			);
@@ -65,6 +74,25 @@
 				6CA9F5322B8AA1C500056BBE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6CA9F5392B8ABBB400056BBE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6CA9F52D2B8AA1C300056BBE /* ContentView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6CA9F53A2B8ABC0100056BBE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6CA9F53B2B8ABC1100056BBE /* HomeView.swift */,
+				6CA9F53F2B8ACA1900056BBE /* YourCarView.swift */,
+				6CA9F5412B8ACBF900056BBE /* BuddiesForumView.swift */,
+				6CA9F5432B8AD4AC00056BBE /* ActivityView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CA9F5402B8ACA1900056BBE /* YourCarView.swift in Sources */,
+				6CA9F5422B8ACBF900056BBE /* BuddiesForumView.swift in Sources */,
+				6CA9F53C2B8ABC1100056BBE /* HomeView.swift in Sources */,
 				6CA9F52E2B8AA1C300056BBE /* ContentView.swift in Sources */,
 				6CA9F52C2B8AA1C300056BBE /* NFLGreenRideApp.swift in Sources */,
+				6CA9F5442B8AD4AC00056BBE /* ActivityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
